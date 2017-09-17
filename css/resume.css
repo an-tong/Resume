@@ -67,6 +67,8 @@
 	background: #fff;
 }
 .timeline>li .timeline-image h4 {
+    color: #616e7c;
+    font-weight: 400;
 	margin-top: 20px;
 	font-size: 14px;
 	text-transform: uppercase;
@@ -91,7 +93,14 @@
 .timeline>li:last-child {
 	margin-bottom: 40px;
 }
+.timeline .timeline-heading h4,h2{
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 10px;
+    line-height: 1.1;
+}
 .timeline .timeline-heading h4 {
+    
 	margin-top: 0;
 	text-transform: uppercase;
 }
@@ -103,7 +112,8 @@
 	color: #E87E04;
 }
 .timeline .timeline-body>p, .timeline .timeline-body>ul {
-	margin-bottom: 0;
+    margin-bottom: 0;
+    /* letter-spacing: 1px; */
 }
 
 

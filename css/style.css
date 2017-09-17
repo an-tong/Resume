@@ -269,10 +269,11 @@ margin-bottom: 1.34em;
 {
 	margin: 3em 0em;
 }
-/*******/
-#contact{
+
+
+/* #contact{
 	color: #000000;
-}
+} */
 #contact h3{
 	padding-top:48px;
 }
@@ -284,11 +285,85 @@ margin-bottom: 1.34em;
 }
 #contact .form-control{
 	background-color: transparent;
+	color:white;
+	border:1px solid rgb(255,255,255,0.8);
 }
+
+input::-webkit-input-placeholder,textarea::-webkit-input-placeholder {
+	color: red;
+	font-size:18px;
+	/* text-align: right; */
+}
+
 #contact .custom-btn-one{
 	border-color: rgb(255, 15, 101);
 	background-color: rgba(0, 0, 0, 0.07);
+	font-size:15px;
+	padding:10px 14px;
+	font-weight: bold;
+	margin-top:20px;
 }
+
+
+
+
+#contact-content{
+	height:inherit;
+	margin: 0 auto;
+	margin: 50px;
+	background-color:rgba(255,255,255, 0.8);
+}
+.contact-grids{
+	margin-top:45px;
+}
+.contact-grids h4{
+	/* color:#2b2b2b; */
+	font-weight: 500;
+	font-size:24px;
+	margin:0 0 25px 0;
+}
+.contact-info{
+	width:100%;
+	margin:0 auto;
+}
+
+.stripb{
+	width:30%;
+	height:1px;
+	background:white;
+	margin:3px auto;
+}
+#contact{
+	color:rgba(255,255,255, 1);
+}
+#contact a{
+	color:white;
+}
+#contact a:hover{
+	color:rgb(255, 15, 101);
+}
+#contact ul{
+	margin:20px;
+}
+.contact-left ul li{
+	
+	font-weight: 500;
+	line-height: 1.8em;
+	letter-spacing: 2px;
+}
+.contact-left ul li:nth-child(4){
+	font-weight:800;
+	font-size:19px;
+	margin:20px 0;
+}
+.contact-left ul li:nth-child(6){
+	font-weight:800;
+	font-size:19px;
+	margin:20px 0;
+}
+
+
+
 
 
 
@@ -431,6 +506,8 @@ margin-bottom: 1.34em;
 {
 	background-color: rgba(59, 63, 78, 0.48);
 } */
+
+
 .copy p{
 	color:#fff;
 	font-size:1em;

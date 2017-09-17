@@ -222,7 +222,7 @@
 /*****/
 .group_3
 {
-	background: #35AFBA;
+	background: rgba(145,207,247,0.8);
 	padding: 2em 0em 2em 0em;
 }
 .group_3_text
@@ -230,8 +230,12 @@
 	width: 62%;
 	margin: 4% 0% 3% 4%;
 }
+.group h3{
+	letter-spacing: 1.5px;
+}
 .group_3_text p {
 	color: #fff;
+	letter-spacing: 2px;
 }
 .group_1_img img
 {
